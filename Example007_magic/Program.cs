@@ -10,15 +10,15 @@ int xc = 80;
 int yc = 30;
 
 Console.SetCursorPosition(xa, ya);
-Console.WriteLine("+");
+Console.WriteLine(".");
 Console.SetCursorPosition(xb, yb);
-Console.WriteLine("+");
+Console.WriteLine(".");
 Console.SetCursorPosition(xc, yc);
-Console.WriteLine("+");
+Console.WriteLine(".");
 
 int x = xa, y = ya;
 int count = 0;
-while(count < 10000)
+while(count < 30000)
 {
     int what = new Random().Next(0, 3);
 
@@ -41,7 +41,7 @@ while(count < 10000)
     }
 
     Console.SetCursorPosition(x, y);
-    Console.WriteLine("+");
+    Console.WriteLine(".");
 
     count++;
 }
