@@ -1,6 +1,6 @@
 ﻿Console.Clear();
 int count = 0;
-int distance = 10000;
+int distance = 30000;
 int firstFriendSpeed = 1;
 int secondFriendSpeed = 2;
 int dogSpeed = 5;
